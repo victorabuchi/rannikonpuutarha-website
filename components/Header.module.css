@@ -127,11 +127,6 @@
     padding: 0;
   }
 
-  .langSelect {
-    padding: 4px 12px;
-    border-radius: 999px;
-  }
-
   .langSelectMenu {
     display: none;
   }
