@@ -173,6 +173,13 @@ export const dictionary: Record<Lang, Record<string, string>> = {
       "Sähköinen hakemus otetaan käyttöön pian. Sillä välin voit lähettää hakemuksen sähköpostitse osoitteeseen rannikko@rannikonpuutarha.fi",
     "jobs.portal_text":
       "Työskenteletkö jo meillä? Kirjaudu työntekijäportaaliin.",
+    "about.title": "Tarinamme",
+    "about.intro":
+      "Rannikon Puutarha on Halikossa sijaitseva avomaapuutarhatila. Tila on kuuluisa herkullisista mansikoistaan ja syksyisin kurpitsoistaan.",
+    "about.family_heading": "Perheviljelmä sukupolvien ketjussa",
+    "about.today_heading": "Puutarha tänään",
+    "about.today_p":
+      "Työllistämme kesän aikana satoja ihmisiä, jotka työskentelevät pellolla, pakkaavat, kuljettavat ja myyvät tuotteet tuoreina pellolta kuluttajalle. Kasvihuoneiden ansiosta saat meiltä taatusti kotimaista marjaa jo huhtikuusta pitkälle lokakuun loppuun.",
     "nav.products": "Tuotteet",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
@@ -347,6 +354,13 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "jobs.form_note":
       "The online application opens soon. In the meantime you can send your application by email to rannikko@rannikonpuutarha.fi",
     "jobs.portal_text": "Already working with us? Sign in to the worker portal.",
+    "about.title": "Our story",
+    "about.intro":
+      "Rannikon Puutarha is an open field garden farm located in Halikko. The farm is famous for its delicious strawberries and, in autumn, its pumpkins.",
+    "about.family_heading": "A family farm through generations",
+    "about.today_heading": "The farm today",
+    "about.today_p":
+      "During the summer we employ hundreds of people who work in the fields, pack, transport and sell the products fresh from the field to the consumer. Thanks to the greenhouses, you can get guaranteed Finnish berries from us from April all the way to the end of October.",
     "nav.products": "Products",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",

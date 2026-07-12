@@ -1,0 +1,126 @@
+.pageHeader {
+  background: var(--green-light);
+}
+
+.pageHeader > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.pageTitle {
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--green-dark);
+}
+
+.pageIntro {
+  margin-top: 16px;
+  max-width: 760px;
+}
+
+.sectionHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--green-dark);
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+  max-width: 720px;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.family {
+  padding: 56px 0;
+}
+
+.familyGrid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.familyImage {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.quote {
+  background: var(--green-light);
+  padding: 56px 0;
+}
+
+.quoteText {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.4;
+  max-width: 760px;
+}
+
+.quoteName {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.quoteRole {
+  color: var(--text-muted);
+}
+
+.today {
+  padding: 56px 0;
+}
+
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 16px;
+  margin-top: 32px;
+}
+
+.statNumber {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--green-dark);
+}
+
+.statLabel {
+  display: block;
+  font-size: 15px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.teamImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 44px;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+
+  .familyGrid {
+    grid-template-columns: 3fr 2fr;
+    gap: 48px;
+  }
+
+  .quoteText {
+    font-size: 28px;
+  }
+
+  .statsRow {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
