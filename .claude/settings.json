@@ -29,7 +29,8 @@
       "Bash(pkill -f \"remote-debugging-port=9222\"; rm -rf /home/victor/snap/chromium/common/cdp; echo done)",
       "Bash(kill 65138)",
       "Bash(pkill -9 -f \"remote-debugging-port=9222\")",
-      "Bash(curl -s -o /dev/null -w '%{http_code}' --max-time 3 http://localhost:3004)"
+      "Bash(curl -s -o /dev/null -w '%{http_code}' --max-time 3 http://localhost:3004)",
+      "Bash(curl -s http://localhost:3004/itsepoiminta)"
     ],
     "additionalDirectories": [
       "/home/victor/snap/chromium/common/cdp"

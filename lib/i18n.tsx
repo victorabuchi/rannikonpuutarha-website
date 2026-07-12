@@ -88,6 +88,28 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "salespoints.preorder":
       "Isommat määrät suosittelemme tilaamaan etukäteen ja noutamaan puutarhaltamme Halikon asemalta osoitteesta Häntälänkoskentie 86. Palvelemme kesäaikaan joustavasti päivittäin.",
     "salespoints.contact_button": "Ota yhteyttä",
+    "selfpicking.title": "Itsepoiminta",
+    "selfpicking.intro":
+      "Mansikan itsepoimintapellot vaihtelevat sadon kypsymisen mukaan. Opastekyltit johdattavat isommalta tieltä poimittavalle pellolle.",
+    "selfpicking.checklist_heading": "Muistilista mansikoiden itsepoimintaan",
+    "selfpicking.item1":
+      "Voit kerätä marjat omaan astiaan, joissa ne kulkeutuvat mukanasi kotiin.",
+    "selfpicking.item2":
+      "Voit tulla myös ilman omaa astiaa, jolloin saat henkilökunnalta n. 2 kg vetoisen keräyslaatikon. Lainatusta keräyslaatikosta marjat siirretään 5 kg pahvilaatikkoon.",
+    "selfpicking.item3":
+      "Mansikkapellolle kannattaa pukea pitkälahkeiset housut nokkosten ja ötököiden varalta.",
+    "selfpicking.item4": "Sateen jälkeen saappaat ovat hyvä varustus.",
+    "selfpicking.item5":
+      "Poimittuasi haluamasi määrän, astiat punnitaan ja sen mukaan veloitetaan.",
+    "selfpicking.item6": "Voit maksaa käteisellä tai kortilla.",
+    "selfpicking.item7":
+      "Mansikat kannattaa pakastaa mahdollisimman tuoreina. Poista kannat ja pilko, survo tai pakasta kokonaisina. Laita marjat ilmatiiviiseen pussiin tai rasiaan ja pakasta.",
+    "selfpicking.item8":
+      "Itse poimittaessa voit valita juuri sen määrän ja sen kokoisia mansikoita kun itse tarvitset. Moni myös perkaa mansikat valmiiksi jo pellolla omaan astiaan, jos marjat käytetään mehuun tai hilloon.",
+    "selfpicking.fields":
+      "Poimintapeltojen sijainnin ilmoitamme Rannikon Puutarhan somekanavilla Instagramissa ja Facebookissa.",
+    "selfpicking.image1_alt": "Mansikoiden itsepoimintaa Rannikon Puutarhalla",
+    "selfpicking.image2_alt": "Mansikoiden itsepoimintaa Rannikon Puutarhalla",
     "nav.products": "Tuotteet",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
@@ -177,6 +199,29 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "salespoints.preorder":
       "For larger quantities, we recommend ordering in advance and picking up from our farm at Halikko station, at Häntälänkoskentie 86. In the summer season we serve you flexibly every day.",
     "salespoints.contact_button": "Contact us",
+    "selfpicking.title": "Self picking",
+    "selfpicking.intro":
+      "The strawberry self picking fields change as the harvest ripens. Signs guide you from the larger road to the field being picked.",
+    "selfpicking.checklist_heading":
+      "Checklist for picking your own strawberries",
+    "selfpicking.item1":
+      "You can pick the berries into your own container, in which they travel home with you.",
+    "selfpicking.item2":
+      "You can also come without your own container, in which case the staff will give you a collection box that holds about 2 kg. From the borrowed collection box the berries are transferred into a 5 kg cardboard box.",
+    "selfpicking.item3":
+      "It is a good idea to wear long trousers on the strawberry field in case of nettles and insects.",
+    "selfpicking.item4": "After rain, rubber boots are good equipment.",
+    "selfpicking.item5":
+      "Once you have picked the amount you want, the containers are weighed and you are charged accordingly.",
+    "selfpicking.item6": "You can pay with cash or card.",
+    "selfpicking.item7":
+      "Strawberries are best frozen as fresh as possible. Remove the stems and chop, mash or freeze them whole. Put the berries in an airtight bag or box and freeze.",
+    "selfpicking.item8":
+      "When picking yourself, you can choose exactly the amount and the size of strawberries you need. Many also clean the strawberries into their own container already on the field, if the berries are used for juice or jam.",
+    "selfpicking.fields":
+      "We announce the location of the picking fields on Rannikon Puutarha's social media channels on Instagram and Facebook.",
+    "selfpicking.image1_alt": "Picking strawberries at Rannikon Puutarha",
+    "selfpicking.image2_alt": "Picking strawberries at Rannikon Puutarha",
     "nav.products": "Products",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",

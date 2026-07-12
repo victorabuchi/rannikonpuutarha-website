@@ -1,0 +1,107 @@
+.pageHeader {
+  background: var(--green-light);
+}
+
+.pageHeader > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.pageTitle {
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--green-dark);
+}
+
+.pageIntro {
+  margin-top: 16px;
+  max-width: 760px;
+}
+
+.imageTop {
+  padding-top: 56px;
+}
+
+.imageBottom {
+  padding-bottom: 56px;
+}
+
+.image {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.checklist {
+  padding: 56px 0;
+}
+
+.checklistInner {
+  max-width: 760px;
+}
+
+.sectionHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--green-dark);
+  margin-bottom: 24px;
+}
+
+.checklistItems {
+  list-style: none;
+  padding: 0;
+}
+
+.checklistItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.checklistItem svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.fields {
+  background: var(--green-light);
+  padding: 56px 0;
+  text-align: center;
+}
+
+.fieldsText {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.fieldsLinks {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.fieldsLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: var(--green-dark);
+}
+
+.fieldsLink:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 44px;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+}
