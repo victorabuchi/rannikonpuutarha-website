@@ -25,6 +25,26 @@
   max-width: 760px;
 }
 
+.intro {
+  padding-top: 56px;
+}
+
+.introGrid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.introGrid .paragraph:first-child {
+  margin-top: 0;
+}
+
+.introImage {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+}
+
 .salo {
   padding: 56px 0;
 }
@@ -123,6 +143,11 @@
 
   .sectionHeading {
     font-size: 32px;
+  }
+
+  .introGrid {
+    grid-template-columns: minmax(0, 420px) 1fr;
+    gap: 48px;
   }
 
   .grid {

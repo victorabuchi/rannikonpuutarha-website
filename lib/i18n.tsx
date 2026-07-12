@@ -88,6 +88,7 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "salespoints.preorder":
       "Isommat määrät suosittelemme tilaamaan etukäteen ja noutamaan puutarhaltamme Halikon asemalta osoitteesta Häntälänkoskentie 86. Palvelemme kesäaikaan joustavasti päivittäin.",
     "salespoints.contact_button": "Ota yhteyttä",
+    "salespoints.image_alt": "Rannikon Puutarhan myyntipiste",
     "selfpicking.title": "Itsepoiminta",
     "selfpicking.intro":
       "Mansikan itsepoimintapellot vaihtelevat sadon kypsymisen mukaan. Opastekyltit johdattavat isommalta tieltä poimittavalle pellolle.",
@@ -261,6 +262,7 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "salespoints.preorder":
       "For larger quantities, we recommend ordering in advance and picking up from our farm at Halikko station, at Häntälänkoskentie 86. In the summer season we serve you flexibly every day.",
     "salespoints.contact_button": "Contact us",
+    "salespoints.image_alt": "Rannikon Puutarha sales point",
     "selfpicking.title": "Self picking",
     "selfpicking.intro":
       "The strawberry self picking fields change as the harvest ripens. Signs guide you from the larger road to the field being picked.",

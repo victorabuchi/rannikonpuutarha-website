@@ -12,11 +12,11 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={`container ${styles.columns}`}>
-        <div>
+        <div className={styles.brandBlock}>
           <p className={styles.siteName}>Rannikon Puutarha</p>
           <p className={styles.tagline}>{t("tagline")}</p>
         </div>
-        <div>
+        <div className={styles.addressBlock}>
           <h2 className={styles.heading}>{t("footer.address_title")}</h2>
           <address className={styles.address}>
             Häntälänkoskentie 86

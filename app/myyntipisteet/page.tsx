@@ -62,8 +62,21 @@ export default function SalesPointsPage() {
         <div className="container">
           <h1 className={styles.pageTitle}>{t("salespoints.title")}</h1>
           <h2 className={styles.subheading}>{t("salespoints.subheading")}</h2>
-          <p className={styles.paragraph}>{t("salespoints.p1")}</p>
-          <p className={styles.paragraph}>{t("salespoints.p2")}</p>
+        </div>
+      </section>
+
+      <section className={styles.intro}>
+        <div className={`container ${styles.introGrid}`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/myyntipiste.jpg"
+            alt={t("salespoints.image_alt")}
+            className={styles.introImage}
+          />
+          <div>
+            <p className={styles.paragraph}>{t("salespoints.p1")}</p>
+            <p className={styles.paragraph}>{t("salespoints.p2")}</p>
+          </div>
         </div>
       </section>
 

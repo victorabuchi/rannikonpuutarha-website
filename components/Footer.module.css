@@ -9,9 +9,15 @@
 
 .columns {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 32px;
   padding-top: 48px;
   padding-bottom: 48px;
+}
+
+.brandBlock,
+.addressBlock {
+  grid-column: 1;
 }
 
 .siteName {
@@ -32,6 +38,7 @@
 
 .address {
   font-style: normal;
+  overflow-wrap: break-word;
 }
 
 .links {
@@ -40,6 +47,8 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  grid-column: 2;
+  grid-row: 1 / span 2;
 }
 
 .bottomWrap {
@@ -58,6 +67,16 @@
 
 @media (min-width: 900px) {
   .columns {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .brandBlock,
+  .addressBlock {
+    grid-column: auto;
+  }
+
+  .links {
+    grid-column: auto;
+    grid-row: auto;
   }
 }
