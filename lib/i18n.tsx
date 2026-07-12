@@ -43,6 +43,33 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "home.why_p3":
       "Työntekijöilleen Esa on elävä esimerkki siitä, ettei mikään ole mahdotonta!",
     "home.social_heading": "Seuraa puutarhamme somekanavia",
+    "products.title": "Tuotteet",
+    "products.intro":
+      "Tuotteemme kypsyvät avomaalla eri aikoihin. Kasvihuoneissa mansikat alkavat kypsyä huhtikuussa ja eri lajikkeet antavat satoa pitkälle syksyyn. Loppukesästä keskitymme erilaisiin meloneihin ja kurpitsoihin, joihin kehittyvät upeat maut valoisan kesän ansiosta. Syksyllä keräämme myös metsämarjoja ja sieniä. Kesän edetessä kannattaa seurata somekanaviamme, jotta tiedät minkä tuotteen sesonki on parhaimmillaan.",
+    "products.cat1_title": "Mansikat",
+    "products.cat1_text":
+      "Kasvihuoneissa mansikat alkavat kypsyä jo huhtikuussa. Pelloillamme kasvaa 15 eri mansikkalajiketta, joten kotimaista marjaa riittää pitkälle lokakuuhun.",
+    "products.cat2_title": "Marjat",
+    "products.cat2_text":
+      "Marjavalikoimamme on karttunut vuosien saatossa. Loppukesän marjat ovat maun lisäksi myös kauniita katsottavia. Syksyllä keräämme myös metsämarjoja Halikon alueen metsistä.",
+    "products.cat3_title": "Herneet ja vihannekset",
+    "products.cat3_text":
+      "Avomaalla kasvaneet herneet ja muut vihannekset kypsyvät pitkän ja valoisan kesäpäivän ansiosta makeiksi ja raikkaiksi.",
+    "products.cat4_title": "Melonit ja kurpitsat",
+    "products.cat4_text":
+      "Loppukesästä keskitymme erilaisiin meloneihin ja kurpitsoihin, joihin kehittyvät upeat maut valoisan kesän ansiosta.",
+    "products.juices_heading": "Mehut ja säilykkeet",
+    "products.juice1_title": "Raparperimehutiiviste",
+    "products.juice1_text":
+      "Rannikon puutarhan raparpereista kylmäpuristamalla valmistettu mehutiiviste sopii sellaisenaan niin lapsille kuin aikuiseen makuun ja pohjaksi monenlaisiin juomiin. Laimennussuhde 1+3.",
+    "products.juice2_title": "Mansikkamehutiiviste",
+    "products.juice2_text":
+      "Mansikkamehussa maistuu kesä ja Rannikon mansikat. Mansikkamehutiiviste on valmistettu kylmäpuristamalla, jolloin vitamiinit säilyvät parhaiten ja maku on raikas. Laimennussuhde 1+2.",
+    "products.juice3_title": "Mustaherukka-mansikkaglögi",
+    "products.juice3_text":
+      "Joulun makuinen mustaherukka-mansikkaglögi Rannikon puutarhan marjoista.",
+    "products.cta":
+      "Seuraa somekanaviamme, niin tiedät minkä tuotteen sesonki on parhaimmillaan.",
     "nav.products": "Tuotteet",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
@@ -86,6 +113,33 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "home.why_p3":
       "For his employees, Esa is a living example that nothing is impossible!",
     "home.social_heading": "Follow our farm on social media",
+    "products.title": "Products",
+    "products.intro":
+      "Our products ripen in the open field at different times. In the greenhouses, strawberries begin to ripen in April and different varieties give a harvest well into autumn. In late summer we focus on different melons and pumpkins, which develop wonderful flavors thanks to the bright summer. In autumn we also gather wild berries and mushrooms. As the summer goes on, it is worth following our social media channels so you know which product is at the peak of its season.",
+    "products.cat1_title": "Strawberries",
+    "products.cat1_text":
+      "In the greenhouses, strawberries begin to ripen as early as April. We grow 15 different strawberry varieties in our fields, so there are Finnish berries well into October.",
+    "products.cat2_title": "Berries",
+    "products.cat2_text":
+      "Our berry selection has grown over the years. Late summer berries are not only tasty but also beautiful to look at. In autumn we also gather wild berries from the forests of the Halikko area.",
+    "products.cat3_title": "Peas and vegetables",
+    "products.cat3_text":
+      "Peas and other vegetables grown in the open field ripen sweet and fresh thanks to the long and bright summer days.",
+    "products.cat4_title": "Melons and pumpkins",
+    "products.cat4_text":
+      "In late summer we focus on different melons and pumpkins, which develop wonderful flavors thanks to the bright summer.",
+    "products.juices_heading": "Juices and preserves",
+    "products.juice1_title": "Rhubarb juice concentrate",
+    "products.juice1_text":
+      "A juice concentrate made by cold pressing rhubarb from Rannikon Puutarha. It suits both children and adult tastes as it is, and works as a base for many kinds of drinks. Dilution ratio 1+3.",
+    "products.juice2_title": "Strawberry juice concentrate",
+    "products.juice2_text":
+      "The strawberry juice tastes of summer and Rannikko strawberries. The strawberry juice concentrate is made by cold pressing, which preserves the vitamins best and keeps the taste fresh. Dilution ratio 1+2.",
+    "products.juice3_title": "Blackcurrant and strawberry glogg",
+    "products.juice3_text":
+      "A Christmas flavored blackcurrant and strawberry glogg made from Rannikon Puutarha berries.",
+    "products.cta":
+      "Follow our social media channels to know which product is at the peak of its season.",
     "nav.products": "Products",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",

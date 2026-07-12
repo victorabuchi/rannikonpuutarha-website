@@ -1,0 +1,119 @@
+.pageHeader {
+  background: var(--green-light);
+}
+
+.pageHeader > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.pageTitle {
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--green-dark);
+}
+
+.pageIntro {
+  margin-top: 16px;
+  max-width: 760px;
+}
+
+.categories {
+  padding: 56px 0;
+}
+
+.sectionHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--green-dark);
+  margin-bottom: 24px;
+}
+
+.categoryGrid,
+.juiceGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cardImage {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.cardTitle {
+  font-size: 20px;
+  color: var(--green-dark);
+  margin-bottom: 8px;
+}
+
+.juices {
+  padding: 0 0 56px;
+}
+
+.cta {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.ctaText {
+  font-size: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.ctaLinks {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.ctaLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.ctaLink:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 44px;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+
+  .categoryGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .juiceGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .juiceGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
