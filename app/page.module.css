@@ -1,0 +1,247 @@
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(rgba(30, 92, 47, 0.65), rgba(30, 92, 47, 0.65)),
+    url("/images/hero.jpg") center / cover no-repeat;
+  color: #fff;
+}
+
+.heroContent {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 100%;
+}
+
+.heroTitle {
+  font-size: 34px;
+  line-height: 1.15;
+}
+
+.heroSub {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.heroButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btnPrimary {
+  background: var(--green);
+  color: #fff;
+}
+
+.btnPrimary:hover {
+  background: var(--green-dark);
+}
+
+.btnSecondary {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.sectionHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--green-dark);
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+  max-width: 720px;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.intro {
+  padding: 56px 0;
+}
+
+.introGrid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.introImage {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.grow {
+  background: var(--green-light);
+  padding: 56px 0;
+}
+
+.growGrid {
+  display: grid;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.stats {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.statsHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  margin-bottom: 32px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 16px;
+}
+
+.statNumber {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.statLabel {
+  display: block;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.quote {
+  padding: 56px 0;
+}
+
+.quoteGrid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.quoteImage {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.quoteText {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.quoteName {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.quoteRole {
+  color: var(--text-muted);
+}
+
+.why {
+  padding: 56px 0;
+}
+
+.social {
+  background: var(--green-light);
+  padding: 56px 0;
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 8px;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: var(--green-dark);
+}
+
+.socialLink:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .heroTitle {
+    font-size: 52px;
+  }
+
+  .heroSub {
+    font-size: 20px;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+
+  .statsHeading {
+    font-size: 32px;
+  }
+
+  .introGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+
+  .growGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .quoteGrid {
+    grid-template-columns: 2fr 3fr;
+    gap: 48px;
+  }
+
+  .quoteText {
+    font-size: 28px;
+  }
+}
