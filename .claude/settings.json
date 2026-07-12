@@ -31,7 +31,9 @@
       "Bash(pkill -9 -f \"remote-debugging-port=9222\")",
       "Bash(curl -s -o /dev/null -w '%{http_code}' --max-time 3 http://localhost:3004)",
       "Bash(curl -s http://localhost:3004/itsepoiminta)",
-      "Bash(curl -s http://localhost:3004/myyntipisteet)"
+      "Bash(curl -s http://localhost:3004/myyntipisteet)",
+      "Bash(grep -o '<footer[^>]*>.\\\\{0,300\\\\}')",
+      "Bash(npx prettier *)"
     ],
     "additionalDirectories": [
       "/home/victor/snap/chromium/common/cdp"
