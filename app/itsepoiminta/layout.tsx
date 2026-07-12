@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Itsepoiminta, Rannikon Puutarha",
+  title: "Itsepoiminta",
+  description:
+    "Mansikan itsepoimintapellot vaihtelevat sadon kypsymisen mukaan. Opastekyltit johdattavat isommalta tieltä poimittavalle pellolle.",
 };
 
 export default function ItsepoimintaLayout({

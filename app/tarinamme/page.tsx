@@ -38,6 +38,8 @@ export default function AboutPage() {
           <img
             src="/images/esa.jpg"
             alt="Esa Rannikko"
+            width={1024}
+            height={683}
             className={styles.familyImage}
           />
         </div>
@@ -71,6 +73,9 @@ export default function AboutPage() {
           <img
             src="/images/tyontekijat.jpg"
             alt=""
+            width={1024}
+            height={768}
+            loading="lazy"
             className={styles.teamImage}
           />
         </div>

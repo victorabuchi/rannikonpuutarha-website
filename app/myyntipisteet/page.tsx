@@ -71,6 +71,8 @@ export default function SalesPointsPage() {
           <img
             src="/images/myyntipiste.jpg"
             alt={t("salespoints.image_alt")}
+            width={750}
+            height={1000}
             className={styles.introImage}
           />
           <div>

@@ -210,7 +210,13 @@ export default function Header() {
       <div className={`container ${styles.inner}`}>
         <Link href="/" className={styles.brand} onClick={closeAll}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="Rannikon Puutarha" className={styles.logo} />
+          <img
+            src="/logo.png"
+            alt="Rannikon Puutarha"
+            width={200}
+            height={114}
+            className={styles.logo}
+          />
           <span className={styles.brandText}>
             <span className={styles.siteName}>Rannikon Puutarha</span>
             <span className={styles.tagline}>{t("tagline")}</span>

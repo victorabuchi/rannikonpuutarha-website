@@ -58,7 +58,14 @@ function CardGrid({ cards, className }: { cards: Card[]; className: string }) {
       {cards.map((card) => (
         <div key={card.titleKey} id={card.id} className={styles.card}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={card.image} alt="" className={styles.cardImage} />
+          <img
+            src={card.image}
+            alt=""
+            width={800}
+            height={600}
+            loading="lazy"
+            className={styles.cardImage}
+          />
           <div className={styles.cardBody}>
             <h3 className={styles.cardTitle}>{t(card.titleKey)}</h3>
             <p>{t(card.textKey)}</p>

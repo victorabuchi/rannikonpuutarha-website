@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Tarinamme, Rannikon Puutarha",
+  title: "Tarinamme",
+  description:
+    "Rannikon Puutarha on Halikossa sijaitseva avomaapuutarhatila. Tila on kuuluisa herkullisista mansikoistaan ja syksyisin kurpitsoistaan.",
 };
 
 export default function TarinammeLayout({

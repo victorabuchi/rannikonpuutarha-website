@@ -51,6 +51,8 @@ export default function SelfPickingPage() {
         <img
           src="/images/itsepoiminta1.jpg"
           alt={t("selfpicking.image1_alt")}
+          width={750}
+          height={422}
           className={styles.image}
         />
       </div>
@@ -76,6 +78,9 @@ export default function SelfPickingPage() {
         <img
           src="/images/itsepoiminta2.jpg"
           alt={t("selfpicking.image2_alt")}
+          width={750}
+          height={563}
+          loading="lazy"
           className={styles.image}
         />
       </div>

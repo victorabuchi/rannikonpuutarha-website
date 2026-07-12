@@ -105,7 +105,14 @@ export default function Home() {
             <p className={styles.paragraph}>{t("home.intro_p2")}</p>
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/intro.jpg" alt="" className={styles.introImage} />
+          <img
+            src="/images/intro.jpg"
+            alt=""
+            width={1000}
+            height={1000}
+            loading="lazy"
+            className={styles.introImage}
+          />
         </div>
       </section>
 
@@ -116,7 +123,14 @@ export default function Home() {
             {growCards.map((card) => (
               <div key={card.key} className={styles.card}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={card.image} alt="" className={styles.cardImage} />
+                <img
+                  src={card.image}
+                  alt=""
+                  width={800}
+                  height={600}
+                  loading="lazy"
+                  className={styles.cardImage}
+                />
                 <p className={styles.cardBody}>{t(card.key)}</p>
               </div>
             ))}
@@ -132,6 +146,9 @@ export default function Home() {
           <img
             src="/images/esa.jpg"
             alt="Esa Rannikko"
+            width={1024}
+            height={683}
+            loading="lazy"
             className={styles.quoteImage}
           />
           <div>
