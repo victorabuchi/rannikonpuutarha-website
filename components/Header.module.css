@@ -1,0 +1,135 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 76px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 56px;
+  width: auto;
+}
+
+.brandText {
+  display: none;
+}
+
+.siteName {
+  font-weight: 700;
+  color: var(--green-dark);
+  line-height: 1.25;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--green-dark);
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 20px 20px;
+}
+
+.navOpen {
+  display: flex;
+}
+
+.navLink {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  color: var(--green);
+}
+
+.langToggle {
+  align-self: flex-start;
+  margin-top: 10px;
+  padding: 4px 14px;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  background: var(--bg);
+  border: 1px solid var(--green);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.langToggle:hover {
+  background: var(--green-light);
+}
+
+@media (min-width: 900px) {
+  .brandText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    border-bottom: none;
+    padding: 0;
+  }
+
+  .navLink {
+    padding: 0;
+  }
+
+  .langToggle {
+    align-self: center;
+    margin-top: 0;
+  }
+}
