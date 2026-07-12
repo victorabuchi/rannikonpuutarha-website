@@ -1,0 +1,30 @@
+.band {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

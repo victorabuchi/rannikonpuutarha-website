@@ -70,6 +70,24 @@ export const dictionary: Record<Lang, Record<string, string>> = {
       "Joulun makuinen mustaherukka-mansikkaglögi Rannikon puutarhan marjoista.",
     "products.cta":
       "Seuraa somekanaviamme, niin tiedät minkä tuotteen sesonki on parhaimmillaan.",
+    "salespoints.title": "Myyntipisteet",
+    "salespoints.subheading": "Myyntipisteemme pääkaupunkiseudulla ja Salossa",
+    "salespoints.p1":
+      "Rannikon puutarhan makeat mansikat ja maukkaat herneet ovat löytäneet tiensä myös pääkaupunkiseudulle Helsingin Osuuskaupan myymälöihin.",
+    "salespoints.p2":
+      "Satokausitilanteen mukaan valikoimassamme on mansikoiden ja herneiden lisäksi erilaisia vihannestuotteita. Loppukesällä löydät meiltä myös kotimaiset vesimelonit sekä erilaiset kurpitsat ja metsämarjat.",
+    "salespoints.salo_heading":
+      "Salon seudulla palvelemme kesällä koulujen alkuun asti seuraavissa myyntipisteissä",
+    "salespoints.days_weekdays": "ark.",
+    "salespoints.days_sat": "la",
+    "salespoints.days_sun": "su",
+    "salespoints.days_thu": "to",
+    "salespoints.days_thursdays": "torstaisin",
+    "salespoints.days_monsat": "ark. ja la",
+    "salespoints.badge_24_7": "Itsepalvelu, avoinna 24/7",
+    "salespoints.preorder":
+      "Isommat määrät suosittelemme tilaamaan etukäteen ja noutamaan puutarhaltamme Halikon asemalta osoitteesta Häntälänkoskentie 86. Palvelemme kesäaikaan joustavasti päivittäin.",
+    "salespoints.contact_button": "Ota yhteyttä",
     "nav.products": "Tuotteet",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
@@ -140,6 +158,25 @@ export const dictionary: Record<Lang, Record<string, string>> = {
       "A Christmas flavored blackcurrant and strawberry glogg made from Rannikon Puutarha berries.",
     "products.cta":
       "Follow our social media channels to know which product is at the peak of its season.",
+    "salespoints.title": "Sales points",
+    "salespoints.subheading":
+      "Our sales points in the Helsinki metropolitan area and Salo",
+    "salespoints.p1":
+      "The sweet strawberries and tasty peas of Rannikon Puutarha have also found their way to the Helsinki metropolitan area, to Helsingin Osuuskauppa stores.",
+    "salespoints.p2":
+      "Depending on the harvest season, our selection includes different vegetable products in addition to strawberries and peas. In late summer you will also find Finnish watermelons as well as different pumpkins and wild berries from us.",
+    "salespoints.salo_heading":
+      "In the Salo region we serve you during the summer until schools start at the following sales points",
+    "salespoints.days_weekdays": "Mon-Fri",
+    "salespoints.days_sat": "Sat",
+    "salespoints.days_sun": "Sun",
+    "salespoints.days_thu": "Thu",
+    "salespoints.days_thursdays": "Thu",
+    "salespoints.days_monsat": "Mon-Sat",
+    "salespoints.badge_24_7": "Self service, open 24/7",
+    "salespoints.preorder":
+      "For larger quantities, we recommend ordering in advance and picking up from our farm at Halikko station, at Häntälänkoskentie 86. In the summer season we serve you flexibly every day.",
+    "salespoints.contact_button": "Contact us",
     "nav.products": "Products",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",

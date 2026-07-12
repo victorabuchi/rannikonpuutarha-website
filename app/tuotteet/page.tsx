@@ -1,7 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n";
-import { InstagramIcon, FacebookIcon } from "@/components/SocialIcons";
+import SocialBand from "@/components/SocialBand";
 import styles from "./page.module.css";
 
 const categoryCards = [
@@ -92,31 +92,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className={styles.cta}>
-        <div className="container">
-          <p className={styles.ctaText}>{t("products.cta")}</p>
-          <div className={styles.ctaLinks}>
-            <a
-              href="https://www.instagram.com/rannikonpuutarha/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.ctaLink}
-            >
-              <InstagramIcon />
-              Instagram
-            </a>
-            <a
-              href="https://www.facebook.com/p/Rannikon-Puutarha-100059867144553/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.ctaLink}
-            >
-              <FacebookIcon />
-              Facebook
-            </a>
-          </div>
-        </div>
-      </section>
+      <SocialBand textKey="products.cta" />
     </>
   );
 }
