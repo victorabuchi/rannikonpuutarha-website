@@ -86,8 +86,15 @@
   color: var(--green);
 }
 
-.langSelect {
-  padding: 8px;
+.langWrap {
+  position: relative;
+}
+
+.langButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
   font: inherit;
   font-size: 0.85rem;
   font-weight: 500;
@@ -98,9 +105,70 @@
   cursor: pointer;
 }
 
+.langButton:hover {
+  border-color: var(--green);
+}
+
+.langMenu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 150px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  padding: 6px;
+  z-index: 120;
+}
+
+.langOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  font: inherit;
+  font-size: 0.9rem;
+  text-align: left;
+  color: var(--text);
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.langOption:hover {
+  background: var(--green-light);
+}
+
+.checkSlot {
+  display: inline-flex;
+  width: 18px;
+  flex-shrink: 0;
+  color: var(--green-dark);
+}
+
 .langSelectMenu {
   align-self: flex-start;
   margin-top: 10px;
+}
+
+.langSelectMenu .langMenu {
+  left: 0;
+  right: auto;
+}
+
+.navItem {
+  position: relative;
+}
+
+.chevron {
+  display: none;
+}
+
+.dropdown {
+  display: none;
 }
 
 @media (min-width: 900px) {
@@ -124,7 +192,67 @@
   }
 
   .navLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     padding: 0;
+  }
+
+  .navItem {
+    display: flex;
+    align-items: center;
+  }
+
+  .chevron {
+    display: inline;
+  }
+
+  .dropdown {
+    display: block;
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    min-width: 240px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    padding: 16px;
+    z-index: 110;
+  }
+
+  .dropdown::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+  }
+
+  .dropdownLink {
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .dropdownLink:hover {
+    background: var(--green-light);
+    color: var(--green-dark);
+  }
+
+  .dropdownAll {
+    display: block;
+    margin-top: 8px;
+    padding: 10px 10px 0;
+    border-top: 1px solid var(--border);
+    font-weight: 500;
+    color: var(--green-dark);
+  }
+
+  .dropdownAll:hover {
+    text-decoration: underline;
   }
 
   .langSelectMenu {

@@ -6,21 +6,25 @@ import styles from "./page.module.css";
 
 const categoryCards = [
   {
+    id: "mansikat",
     image: "/images/products/mansikat.jpg",
     titleKey: "products.cat1_title",
     textKey: "products.cat1_text",
   },
   {
+    id: "marjat",
     image: "/images/products/marjat.jpg",
     titleKey: "products.cat2_title",
     textKey: "products.cat2_text",
   },
   {
+    id: "vihannekset",
     image: "/images/products/vihannekset.jpg",
     titleKey: "products.cat3_title",
     textKey: "products.cat3_text",
   },
   {
+    id: "melonit",
     image: "/images/products/melonit.jpg",
     titleKey: "products.cat4_title",
     textKey: "products.cat4_text",
@@ -45,14 +49,14 @@ const juiceCards = [
   },
 ];
 
-type Card = { image: string; titleKey: string; textKey: string };
+type Card = { id?: string; image: string; titleKey: string; textKey: string };
 
 function CardGrid({ cards, className }: { cards: Card[]; className: string }) {
   const { t } = useLanguage();
   return (
     <div className={className}>
       {cards.map((card) => (
-        <div key={card.titleKey} className={styles.card}>
+        <div key={card.titleKey} id={card.id} className={styles.card}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={card.image} alt="" className={styles.cardImage} />
           <div className={styles.cardBody}>
@@ -85,7 +89,7 @@ export default function ProductsPage() {
 
       <section className={styles.juices}>
         <div className="container">
-          <h2 className={styles.sectionHeading}>
+          <h2 id="mehut" className={styles.sectionHeading}>
             {t("products.juices_heading")}
           </h2>
           <CardGrid cards={juiceCards} className={styles.juiceGrid} />

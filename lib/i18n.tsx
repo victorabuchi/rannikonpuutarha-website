@@ -193,6 +193,9 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "contact.form_note":
       "Sähköinen lomake otetaan käyttöön pian. Sillä välin tavoitat meidät sähköpostitse osoitteesta rannikko@rannikonpuutarha.fi",
     "nav.products": "Tuotteet",
+    "nav.all_products": "Kaikki tuotteet",
+    "nav.all_salespoints": "Kaikki myyntipisteet",
+    "nav.all_jobs": "Kaikki työpaikat",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
     "nav.jobs": "Työpaikat",
@@ -386,6 +389,9 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "contact.form_note":
       "The online form opens soon. In the meantime you can reach us by email at rannikko@rannikonpuutarha.fi",
     "nav.products": "Products",
+    "nav.all_products": "All products",
+    "nav.all_salespoints": "All sales points",
+    "nav.all_jobs": "All jobs",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",
     "nav.jobs": "Jobs",

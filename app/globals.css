@@ -35,6 +35,10 @@ img {
   display: block;
 }
 
+[id] {
+  scroll-margin-top: 90px;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;

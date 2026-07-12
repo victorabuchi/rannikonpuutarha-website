@@ -61,7 +61,7 @@ export default function JobsPage() {
         </div>
       </section>
 
-      <section className={styles.roles}>
+      <section id="roolit" className={styles.roles}>
         <div className="container">
           <h2 className={styles.sectionHeading}>{t("jobs.roles_heading")}</h2>
           <div className={styles.rolesGrid}>

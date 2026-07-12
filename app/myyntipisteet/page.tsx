@@ -85,7 +85,7 @@ export default function SalesPointsPage() {
           <h2 className={styles.sectionHeading}>
             {t("salespoints.salo_heading")}
           </h2>
-          <div className={styles.grid}>
+          <div id="myyntipisteet-lista" className={styles.grid}>
             {salesPoints.map((point) => (
               <div key={point.name} className={styles.card}>
                 <p className={styles.cardName}>{point.name}</p>

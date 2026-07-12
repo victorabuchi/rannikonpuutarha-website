@@ -33,7 +33,8 @@
       "Bash(curl -s http://localhost:3004/itsepoiminta)",
       "Bash(curl -s http://localhost:3004/myyntipisteet)",
       "Bash(grep -o '<footer[^>]*>.\\\\{0,300\\\\}')",
-      "Bash(npx prettier *)"
+      "Bash(npx prettier *)",
+      "Bash(curl -s http://127.0.0.1:9222/json/version)"
     ],
     "additionalDirectories": [
       "/home/victor/snap/chromium/common/cdp"
