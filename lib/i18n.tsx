@@ -180,6 +180,18 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "about.today_heading": "Puutarha tänään",
     "about.today_p":
       "Työllistämme kesän aikana satoja ihmisiä, jotka työskentelevät pellolla, pakkaavat, kuljettavat ja myyvät tuotteet tuoreina pellolta kuluttajalle. Kasvihuoneiden ansiosta saat meiltä taatusti kotimaista marjaa jo huhtikuusta pitkälle lokakuun loppuun.",
+    "contact.title": "Ota yhteyttä",
+    "contact.intro":
+      "Rannikon Puutarha sijaitsee Salossa, Varsinais-Suomessa. Toimitilamme osoitteessa: Häntälänkoskentie 86, 24910 Halikko as. Tule käymään tai soita: 0400 826 360",
+    "contact.entrepreneur": "Yrittäjä",
+    "contact.manager": "Toiminnanjohtaja",
+    "contact.maps_button": "Avaa Google Mapsissa",
+    "contact.map_title": "Kartta, Rannikon Puutarha",
+    "contact.form_heading": "Lähetä viesti",
+    "contact.form_subject": "Aihe",
+    "contact.form_submit": "Lomake avautuu pian",
+    "contact.form_note":
+      "Sähköinen lomake otetaan käyttöön pian. Sillä välin tavoitat meidät sähköpostitse osoitteesta rannikko@rannikonpuutarha.fi",
     "nav.products": "Tuotteet",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
@@ -361,6 +373,18 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "about.today_heading": "The farm today",
     "about.today_p":
       "During the summer we employ hundreds of people who work in the fields, pack, transport and sell the products fresh from the field to the consumer. Thanks to the greenhouses, you can get guaranteed Finnish berries from us from April all the way to the end of October.",
+    "contact.title": "Contact us",
+    "contact.intro":
+      "Rannikon Puutarha is located in Salo, Southwest Finland. Our premises are at Häntälänkoskentie 86, 24910 Halikko as. Come visit or call: 0400 826 360",
+    "contact.entrepreneur": "Entrepreneur",
+    "contact.manager": "Manager",
+    "contact.maps_button": "Open in Google Maps",
+    "contact.map_title": "Map, Rannikon Puutarha",
+    "contact.form_heading": "Send a message",
+    "contact.form_subject": "Subject",
+    "contact.form_submit": "Form opens soon",
+    "contact.form_note":
+      "The online form opens soon. In the meantime you can reach us by email at rannikko@rannikonpuutarha.fi",
     "nav.products": "Products",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",

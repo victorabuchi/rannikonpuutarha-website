@@ -1,0 +1,172 @@
+.pageHeader {
+  background: var(--green-light);
+}
+
+.pageHeader > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.pageTitle {
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--green-dark);
+}
+
+.pageIntro {
+  margin-top: 16px;
+  max-width: 760px;
+}
+
+.sectionHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--green-dark);
+  margin-bottom: 24px;
+}
+
+.info {
+  padding: 56px 0;
+}
+
+.infoGrid {
+  display: grid;
+  gap: 32px;
+  align-items: start;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  overflow-wrap: break-word;
+}
+
+.row svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--green);
+}
+
+.row a:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+.people {
+  padding: 16px 0;
+}
+
+.people p {
+  padding: 4px 0;
+}
+
+.personLabel {
+  display: inline-block;
+  min-width: 140px;
+  color: var(--text-muted);
+}
+
+.mapsButton {
+  display: inline-block;
+  border: 2px solid var(--green);
+  color: var(--green-dark);
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 10px 24px;
+  margin-top: 8px;
+}
+
+.mapsButton:hover {
+  background: var(--green-light);
+}
+
+.map {
+  width: 100%;
+  height: 380px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.formSection {
+  padding: 0 0 56px;
+}
+
+.form {
+  max-width: 720px;
+}
+
+.field {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.fieldMark {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.input {
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--green);
+}
+
+.submit {
+  width: 100%;
+  background: var(--green);
+  color: #fff;
+  font: inherit;
+  font-weight: 500;
+  border: 0;
+  border-radius: 6px;
+  padding: 14px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.formNote {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 44px;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+
+  .infoGrid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    gap: 48px;
+  }
+}
