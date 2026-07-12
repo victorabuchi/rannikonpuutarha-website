@@ -10,6 +10,7 @@ const routes = [
   "/tyopaikat",
   "/tarinamme",
   "/yhteystiedot",
+  "/tietosuojaseloste",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

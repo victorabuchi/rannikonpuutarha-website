@@ -39,7 +39,8 @@
       "Bash(file public/favicon_io/*)",
       "Bash(file public/images/*.jpg public/images/products/*.jpg)",
       "Bash(/snap/bin/chromium --headless=new --no-sandbox --disable-gpu --window-size=1440,900 --screenshot=/home/victor/snap/chromium/common/shot1.png --hide-scrollbars \"http://localhost:3004/\")",
-      "Bash(pkill -9 -f \"remote-debugging-port=9222\"; sleep 1; rm -rf /home/victor/snap/chromium/common/cdp /home/victor/snap/chromium/common/shot1.png; pgrep -f \"remote-debugging-por[t]=9222\" >/dev/null && echo \"still running\" || echo \"test browser gone\")"
+      "Bash(pkill -9 -f \"remote-debugging-port=9222\"; sleep 1; rm -rf /home/victor/snap/chromium/common/cdp /home/victor/snap/chromium/common/shot1.png; pgrep -f \"remote-debugging-por[t]=9222\" >/dev/null && echo \"still running\" || echo \"test browser gone\")",
+      "Bash(curl -s --max-time 20 \"https://rannikonpuutarha.fi/tietosuojaseloste/\" -o /tmp/claude-1000/-home-victor-Projects-rannikonpuutarha-website/29bb4780-d1a8-44b3-9823-a2579f272185/scratchpad/rp-privacy.html)"
     ],
     "additionalDirectories": [
       "/home/victor/snap/chromium/common/cdp",
