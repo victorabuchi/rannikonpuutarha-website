@@ -1,0 +1,258 @@
+.pageHeader {
+  background: var(--green-light);
+}
+
+.pageHeader > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.pageTitle {
+  font-size: 36px;
+  line-height: 1.15;
+  color: var(--green-dark);
+}
+
+.pageIntro {
+  margin-top: 16px;
+  max-width: 760px;
+}
+
+.seasonBadge {
+  display: inline-block;
+  background: #fff;
+  color: var(--green-dark);
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  margin-top: 20px;
+}
+
+.sectionHeading {
+  font-size: 26px;
+  line-height: 1.25;
+  color: var(--green-dark);
+  margin-bottom: 24px;
+}
+
+.roles {
+  padding: 56px 0;
+}
+
+.rolesGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.roleCard {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.roleTitle {
+  font-size: 20px;
+  color: var(--green-dark);
+  margin-bottom: 12px;
+}
+
+.pills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  background: var(--green-light);
+  color: var(--green-dark);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+.apply {
+  padding: 0 0 56px;
+}
+
+.pathGrid {
+  display: grid;
+  gap: 24px;
+}
+
+.pathCard {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+.pathTitle {
+  font-size: 20px;
+  color: var(--green-dark);
+  margin-bottom: 8px;
+}
+
+.pathButton,
+.pathButtonOutline {
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 12px 24px;
+  margin-top: 16px;
+}
+
+.pathButton {
+  background: var(--green);
+  color: #fff;
+}
+
+.pathButton:hover {
+  background: var(--green-dark);
+}
+
+.pathButtonOutline {
+  border: 2px solid var(--green);
+  color: var(--green-dark);
+}
+
+.pathButtonOutline:hover {
+  background: var(--green-light);
+}
+
+.formSection {
+  padding: 0 0 56px;
+}
+
+.form {
+  max-width: 720px;
+  scroll-margin-top: 24px;
+}
+
+.radioGroup,
+.periodGroup {
+  border: 0;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.radioLabel input {
+  accent-color: var(--green);
+}
+
+.field {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.fieldMark {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.input {
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--green);
+}
+
+.periodInputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.periodInputs .field {
+  margin-bottom: 0;
+}
+
+.submit {
+  width: 100%;
+  background: var(--green);
+  color: #fff;
+  font: inherit;
+  font-weight: 500;
+  border: 0;
+  border-radius: 6px;
+  padding: 14px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.formNote {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.portal {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.portalText {
+  font-size: 20px;
+}
+
+.portalButton {
+  display: inline-block;
+  background: #fff;
+  color: var(--green-dark);
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 12px 28px;
+  margin-top: 24px;
+}
+
+.portalButton:hover {
+  background: var(--green-light);
+}
+
+@media (min-width: 768px) {
+  .pageTitle {
+    font-size: 44px;
+  }
+
+  .sectionHeading {
+    font-size: 32px;
+  }
+
+  .rolesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pathGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
