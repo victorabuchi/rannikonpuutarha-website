@@ -9,7 +9,6 @@
 .inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
   min-height: 76px;
 }
@@ -18,6 +17,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-right: auto;
 }
 
 .logo {
@@ -86,22 +86,21 @@
   color: var(--green);
 }
 
-.langToggle {
-  align-self: flex-start;
-  margin-top: 10px;
-  padding: 4px 14px;
+.langSelect {
+  padding: 4px 12px;
   font: inherit;
   font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--green-dark);
-  background: var(--bg);
-  border: 1px solid var(--green);
+  font-weight: 500;
+  color: var(--text);
+  background: #ffffff;
+  border: 1px solid var(--border);
   border-radius: 999px;
   cursor: pointer;
 }
 
-.langToggle:hover {
-  background: var(--green-light);
+.langSelectMenu {
+  align-self: flex-start;
+  margin-top: 10px;
 }
 
 @media (min-width: 900px) {
@@ -128,8 +127,7 @@
     padding: 0;
   }
 
-  .langToggle {
-    align-self: center;
-    margin-top: 0;
+  .langSelectMenu {
+    display: none;
   }
 }

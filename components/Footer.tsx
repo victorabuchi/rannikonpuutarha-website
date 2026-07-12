@@ -14,7 +14,7 @@ export default function Footer() {
       <div className={`container ${styles.columns}`}>
         <div>
           <p className={styles.siteName}>Rannikon Puutarha</p>
-          <p className={styles.tagline}>Avomaan herkkuja</p>
+          <p className={styles.tagline}>{t("tagline")}</p>
         </div>
         <div>
           <h2 className={styles.heading}>{t("footer.address_title")}</h2>
@@ -27,7 +27,8 @@ export default function Footer() {
               rannikko@rannikonpuutarha.fi
             </a>
             <br />
-            puh: <a href="tel:+358400826360">0400 826 360</a>
+            {t("footer.phone_prefix")}{" "}
+            <a href="tel:+358400826360">0400 826 360</a>
           </address>
         </div>
         <ul className={styles.links}>

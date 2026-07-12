@@ -2,12 +2,27 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useLanguage } from "@/lib/i18n";
+import { useLanguage, type Lang } from "@/lib/i18n";
 import { navItems } from "@/lib/nav";
 import styles from "./Header.module.css";
 
+function LangSelect({ className }: { className: string }) {
+  const { lang, setLang } = useLanguage();
+  return (
+    <select
+      className={className}
+      value={lang}
+      onChange={(e) => setLang(e.target.value as Lang)}
+      aria-label="Kieli, Language"
+    >
+      <option value="fi">FI</option>
+      <option value="en">EN</option>
+    </select>
+  );
+}
+
 export default function Header() {
-  const { lang, setLang, t } = useLanguage();
+  const { t } = useLanguage();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
@@ -20,20 +35,9 @@ export default function Header() {
           <img src="/logo.png" alt="Rannikon Puutarha" className={styles.logo} />
           <span className={styles.brandText}>
             <span className={styles.siteName}>Rannikon Puutarha</span>
-            <span className={styles.tagline}>Avomaan herkkuja</span>
+            <span className={styles.tagline}>{t("tagline")}</span>
           </span>
         </Link>
-        <button
-          type="button"
-          className={styles.hamburger}
-          aria-label="Valikko"
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
         <nav
           className={menuOpen ? `${styles.nav} ${styles.navOpen}` : styles.nav}
         >
@@ -47,14 +51,22 @@ export default function Header() {
               {t(item.key)}
             </Link>
           ))}
-          <button
-            type="button"
-            className={styles.langToggle}
-            onClick={() => setLang(lang === "fi" ? "en" : "fi")}
-          >
-            {lang === "fi" ? "EN" : "FI"}
-          </button>
+          <LangSelect
+            className={`${styles.langSelect} ${styles.langSelectMenu}`}
+          />
         </nav>
+        <LangSelect className={styles.langSelect} />
+        <button
+          type="button"
+          className={styles.hamburger}
+          aria-label="Valikko"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </div>
     </header>
   );

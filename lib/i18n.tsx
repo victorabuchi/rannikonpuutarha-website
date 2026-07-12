@@ -12,6 +12,8 @@ export type Lang = "fi" | "en";
 
 export const dictionary: Record<Lang, Record<string, string>> = {
   fi: {
+    "tagline": "Avomaan herkkuja",
+    "home.heading": "Herkkuja suoraan tilalta!",
     "nav.products": "Tuotteet",
     "nav.salespoints": "Myyntipisteet",
     "nav.selfpicking": "Itsepoiminta",
@@ -19,10 +21,13 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "nav.about": "Tarinamme",
     "nav.contact": "Ota yhteyttä",
     "footer.address_title": "Puutarhan osoite ja toimitilat",
+    "footer.phone_prefix": "puh:",
     "footer.worker_portal": "Työntekijäportaali",
     "footer.privacy": "Tietosuojaseloste",
   },
   en: {
+    "tagline": "Treats from the open field",
+    "home.heading": "Treats straight from the farm!",
     "nav.products": "Products",
     "nav.salespoints": "Sales points",
     "nav.selfpicking": "Self picking",
@@ -30,6 +35,7 @@ export const dictionary: Record<Lang, Record<string, string>> = {
     "nav.about": "Our story",
     "nav.contact": "Contact",
     "footer.address_title": "Farm address and premises",
+    "footer.phone_prefix": "tel:",
     "footer.worker_portal": "Worker portal",
     "footer.privacy": "Privacy policy",
   },

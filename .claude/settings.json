@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000)",
+      "Bash(break)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' http://localhost:3004)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' http://10.188.27.247:3004/)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' http://10.188.27.247:3004/ -H 'Referer: http://10.188.27.247:3004/')",
+      "Bash(python3 -)",
+      "Bash(which chromium *)",
+      "Read(//snap/bin/**)",
+      "Bash(/snap/bin/chromium.chromedriver --port=9515)",
+      "Bash(python3 /tmp/claude-1000/-home-victor-Projects-rannikonpuutarha-website/29bb4780-d1a8-44b3-9823-a2579f272185/scratchpad/toggle_test.py http://10.188.27.247:3004/)",
+      "Bash(curl -s -X POST http://127.0.0.1:9515/session -H 'Content-Type: application/json' -d '{\"capabilities\":{\"alwaysMatch\":{\"browserName\":\"chrome\",\"goog:chromeOptions\":{\"binary\":\"/snap/bin/chromium\",\"args\":[\"--headless=new\",\"--no-sandbox\",\"--disable-gpu\"]},\"goog:loggingPrefs\":{\"browser\":\"ALL\"}}}}')",
+      "Bash(timeout 30 /snap/bin/chromium --headless=new --disable-gpu --no-sandbox --dump-dom about:blank)",
+      "Bash(mkdir -p /home/victor/snap/chromium/common/cdtest)",
+      "Bash(curl -s -X POST http://127.0.0.1:9515/session -H 'Content-Type: application/json' -d '{\"capabilities\":{\"alwaysMatch\":{\"browserName\":\"chrome\",\"goog:chromeOptions\":{\"binary\":\"/snap/bin/chromium\",\"args\":[\"--headless=new\",\"--no-sandbox\",\"--disable-gpu\",\"--user-data-dir=/home/victor/snap/chromium/common/cdtest\"]},\"goog:loggingPrefs\":{\"browser\":\"ALL\"}}}}')",
+      "Bash(/snap/bin/chromium --headless=new --no-sandbox --disable-gpu --remote-debugging-port=9222 --user-data-dir=/home/victor/snap/chromium/common/cdp about:blank)",
+      "Bash(kill 55234)",
+      "Bash(ps -o pid,ppid,cmd -p 55222,55223,61519)",
+      "Bash(kill 55223 55222)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' --max-time 3 http://localhost:3004)",
+      "Bash(pkill -f \"chromium.chromedriver --port=9515\")",
+      "Bash(pkill -f \"remote-debugging-port=9222\")",
+      "Bash(rm -rf /home/victor/snap/chromium/common/cdtest /home/victor/snap/chromium/common/cdp)",
+      "Bash(curl -s -o /dev/null -w 'dev server: %{http_code}\\\\n' http://localhost:3004)",
+      "Bash(pkill -f \"remote-debugging-port=9222\"; rm -rf /home/victor/snap/chromium/common/cdp; echo done)",
+      "Bash(kill 65138)",
+      "Bash(pkill -9 -f \"remote-debugging-port=9222\")"
+    ],
+    "additionalDirectories": [
+      "/home/victor/snap/chromium/common/cdp"
+    ]
+  }
+}
